@@ -111,12 +111,12 @@ export default function App() {
         );
       }
     } else if (view === "pricing") {
-      document.title = "Pricing | Revero Digital — Websites from R1,000 | South Africa";
+      document.title = "Pricing | Revero Digital — Websites from R1,500 | South Africa";
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
         metaDesc.setAttribute(
           "content",
-          "Transparent website pricing for South African businesses. Starter from R1,000 (71% off). Growth from R3,500 (50% off). Custom builds available. No hidden fees."
+          "Transparent website pricing for South African businesses. Starter from R1,500 (71% off). Growth from R3,500 (50% off). Custom builds available. No hidden fees."
         );
       }
     } else {
@@ -125,7 +125,7 @@ export default function App() {
       if (metaDesc) {
         metaDesc.setAttribute(
           "content",
-          "Revero Digital builds modern, high-converting websites for small and local businesses in South Africa. Starting from R1,000. Based in Sandton, Johannesburg."
+          "Revero Digital builds modern, high-converting websites for small and local businesses in South Africa. Starting from R1,500. Based in Sandton, Johannesburg."
         );
       }
     }
@@ -189,7 +189,7 @@ export default function App() {
       role: "Owner — Soweto, SA",
     },
     {
-      text: "Our salon finally looks professional online. Clients book appointments directly from the site now. Best R1,000 we've ever spent.",
+      text: "Our salon finally looks professional online. Clients book appointments directly from the site now. Best R1,500 we've ever spent.",
       name: "Naledi K.",
       role: "Owner — Pretoria, SA",
     },
@@ -237,11 +237,11 @@ export default function App() {
     },
     {
       q: "How fast will my website be live?",
-      a: "Starter sites: 3 days. Growth sites: 14 days. Custom builds: scoped per project.",
+      a: "Starter sites: 3 days. Growth sites: 3 days. Custom builds: scoped per project.",
     },
     {
       q: "Do I need to provide photos or content?",
-      a: "Not necessarily. We source free professional photos via Unsplash for your industry. For Growth clients, we also write starter copy.",
+      a: "Not necessarily. We source free professional photos for your industry. For Growth clients, we also write starter copy.",
     },
     {
       q: "Can I upgrade my plan later?",
@@ -555,7 +555,7 @@ export default function App() {
                   
                   <div className="py-4 border-y border-[#E5E5E5]/60 flex items-baseline gap-2">
                     <span className="text-sm line-through text-[#6B6B6B] font-mono">R3,500</span>
-                    <span className="text-4xl font-black text-black">R1,000</span>
+                    <span className="text-4xl font-black text-black">R1,500</span>
                   </div>
                   <p className="text-[10px] text-[#6B6B6B] font-mono">One-time payment.</p>
                 </div>

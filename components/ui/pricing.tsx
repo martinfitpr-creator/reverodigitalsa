@@ -15,7 +15,7 @@ export function Pricing() {
       name: "STARTER",
       badge: "71% OFF — Limited Time",
       wasZar: "R3,500",
-      nowZar: "R1,000",
+      nowZar: "R1,500",
       monthlyRetainer: "+ R199/mo",
       retainerDesc: "Includes cloud hosting, domain renew, and minor edits",
       desc: "Best for startups & new businesses needing a clean web presence.",
@@ -24,7 +24,7 @@ export function Pricing() {
       features: [
         "Mobile-responsive design",
         "Up to 5 pages (Home, About, Services, etc.)",
-        "Contact form with email notifications",
+        "Contact form with WhatsApp integration",
         "Google Maps integration",
         "Basic on-page SEO styling",
         "WhatsApp click-to-chat button",
@@ -47,7 +47,7 @@ export function Pricing() {
       isPopular: true,
       features: [
         "Everything in Starter package",
-        "Up to 10 professionally framed pages",
+        "Up to 20 professionally framed pages",
         "Custom animations (Framer Motion)",
         "Advanced SEO (Schema, sitemap, robots)",
         "Google Analytics 4 integration",
@@ -57,9 +57,9 @@ export function Pricing() {
         "Google Business Profile optimization",
         "Social media feed integration",
         "2 rounds of reviews included",
-        "14-day premium delivery guaranteed",
+        "3-day premium delivery guaranteed",
         "Priority 48-hour response support",
-        "Professional photo sourcing from Unsplash",
+        "Professional photo sourcing",
       ],
     },
     {
